@@ -13,7 +13,8 @@
         android:text="@string/textInputString"
         android:inputType="textMultiLine"
         android:layout_below="@+id/headerTextView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,5 +25,16 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:textSize="46dp" />
+        android:textSize="46sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:id="@+id/saveButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="46sp"
+        android:typeface="normal"
+        android:textStyle="normal" />
 </RelativeLayout>

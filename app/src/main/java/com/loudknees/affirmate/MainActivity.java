@@ -4,13 +4,31 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends ActionBarActivity {
+
+    Button saveButton;
+    EditText textInput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        saveButton = (Button)findViewById(R.id.saveButton);
+        textInput = (EditText)findViewById(R.id.textInput);
+
+        saveButton.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        
+                    }
+                }
+        );
     }
 
     @Override
